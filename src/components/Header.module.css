@@ -1,0 +1,179 @@
+.searchIcon,
+.stravaLogoIcon {
+  position: relative;
+  width: 95px;
+  height: 20px;
+}
+.searchIcon {
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.searchiconwrapper {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-12xs);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.logoandsearch {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.dropdownIcon,
+.label {
+  position: relative;
+}
+.dropdownIcon {
+  width: 14px;
+  height: 14px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.pagetablabel {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xl) var(--padding-lg) var(--padding-3xl)
+    var(--padding-xs);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.activeindicator {
+  align-self: stretch;
+  position: relative;
+  height: 2px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.pagetab {
+  height: 55px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.navlinks1 {
+  width: 121px;
+}
+.navlinks1,
+.navlinks2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.dropdownIcon3 {
+  position: relative;
+  width: 14px;
+  height: 14px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.pagetablabel4 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xl) var(--padding-base) var(--padding-3xl)
+    var(--padding-xs);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.activeindicator4 {
+  align-self: stretch;
+  position: relative;
+  background-color: var(--orange-light);
+  height: 2px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.navlinks,
+.navlinks5,
+.navmenu {
+  display: flex;
+  flex-direction: row;
+}
+.navlinks5 {
+  height: 56px;
+  align-items: flex-end;
+  justify-content: center;
+  color: var(--color-black);
+}
+.navlinks,
+.navmenu {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.navmenu {
+  align-self: stretch;
+  align-items: center;
+  gap: var(--gap-9xs);
+}
+.bellIcon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.notificationsnavitem {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-lg) var(--padding-smi);
+  align-items: center;
+  justify-content: center;
+}
+.userprofileimageIcon {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+}
+.profilenavitem {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-lg) var(--padding-base);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.navbarcontainerdesktop,
+.navbarwrapper,
+.usermenu {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.navbarcontainerdesktop,
+.navbarwrapper {
+  background-color: var(--n0-white);
+  align-items: center;
+  justify-content: space-between;
+}
+.navbarcontainerdesktop {
+  width: 1248px;
+  padding: 0 var(--padding-base);
+  box-sizing: border-box;
+}
+.navbarwrapper {
+  box-shadow: 0 2px 3px rgba(53, 53, 53, 0.05);
+  height: 56px;
+  text-align: center;
+  font-size: var(--small-1-size);
+  color: var(--n80-asphalt);
+  font-family: var(--p5);
+}

@@ -1,0 +1,183 @@
+.yourRecentActivities {
+  position: relative;
+  line-height: 15px;
+}
+.strengthIcon {
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.lunchWeightTraining,
+.strengthIcon {
+  position: relative;
+}
+.activity,
+.runIcon {
+  align-self: stretch;
+  overflow: hidden;
+}
+.activity {
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-3xs);
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.runIcon {
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  max-height: 100%;
+}
+.run {
+  width: 16px;
+  height: 16px;
+}
+.activitieslist,
+.recentactivities,
+.run {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.activitieslist {
+  align-self: stretch;
+  overflow: hidden;
+  gap: var(--gap-xs);
+  font-size: var(--p5-size);
+  color: var(--n80-asphalt);
+}
+.recentactivities {
+  width: 416px;
+  padding: var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-base);
+}
+.adventureStoriesTraining {
+  color: var(--color-black);
+}
+.readOurBlogContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--small-1-size);
+  text-align: left;
+  color: var(--n80-asphalt);
+}
+.footercontainer,
+.promofooter {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.footercontainer {
+  width: 1248px;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.promofooter {
+  align-self: stretch;
+  background-color: var(--n10-fog);
+  border-top: 1px solid var(--n20-icicle);
+  border-bottom: 1px solid var(--n20-icicle);
+  overflow: hidden;
+  padding: var(--padding-5xl) var(--padding-12xs);
+  justify-content: center;
+}
+.stravaLogoIcon {
+  position: relative;
+  width: 117px;
+  height: 24px;
+}
+.logowithcopyright {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-smi);
+  font-size: var(--p5-size);
+}
+.features {
+  align-self: stretch;
+  position: relative;
+}
+.doNotShare {
+  margin: 0;
+}
+.aboutOurMaps {
+  position: relative;
+  text-align: center;
+}
+.categorylinks {
+  align-self: stretch;
+  gap: var(--gap-lg);
+  text-align: left;
+  font-size: var(--p5-size);
+  color: var(--n70-gravel);
+}
+.aboutnavlinks,
+.categorylinks,
+.categorylinks3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.aboutnavlinks {
+  flex: 1;
+  gap: var(--gap-lgi);
+}
+.categorylinks3 {
+  align-self: stretch;
+  text-align: left;
+  font-size: var(--p5-size);
+  color: var(--n70-gravel);
+}
+.dropdownIcon {
+  position: relative;
+  width: 10.41px;
+  height: 5.21px;
+}
+.footercontainer1,
+.languagedropdown {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.languagedropdown {
+  align-self: stretch;
+  align-items: center;
+  gap: var(--gap-5xs);
+  color: var(--color-black);
+}
+.footercontainer1 {
+  width: 1248px;
+  padding: 0 0 0 var(--padding-xl);
+  box-sizing: border-box;
+  align-items: flex-start;
+}
+.footerwrapper,
+.globalfooter {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.globalfooter {
+  background-color: var(--n0-white);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-21xl) var(--padding-5xs);
+  justify-content: center;
+  color: var(--n80-asphalt);
+}
+.footerwrapper {
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: center;
+  font-size: var(--h4-size);
+  color: var(--color-black);
+  font-family: var(--p5);
+}

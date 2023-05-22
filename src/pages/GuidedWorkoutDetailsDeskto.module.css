@@ -1,0 +1,51 @@
+.gabriellaEasyRunIcon,
+.playIcon {
+  position: absolute;
+  overflow: hidden;
+}
+.gabriellaEasyRunIcon {
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  height: 566px;
+  object-fit: cover;
+}
+.playIcon {
+  top: calc(50% - 67px);
+  left: calc(50% - 68px);
+  border-radius: 168.75px;
+  width: 135px;
+  height: 135px;
+}
+.fullsizeimagecontainer {
+  align-self: stretch;
+  position: relative;
+  height: 566px;
+}
+.pagecontainer {
+  width: 1248px;
+  padding: 0 var(--padding-base);
+  box-sizing: border-box;
+  align-items: center;
+}
+.guidedWorkoutDetailsDeskto,
+.pagecontainer,
+.pagewrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.pagewrapper {
+  width: 1440px;
+  height: 1427px;
+  align-items: center;
+}
+.guidedWorkoutDetailsDeskto {
+  position: relative;
+  background-color: var(--n10-fog);
+  width: 100%;
+  overflow-y: auto;
+  align-items: flex-start;
+}

@@ -1,0 +1,115 @@
+.zoeyogaIcon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.workoutmediumother {
+  height: 180px;
+}
+.sampleCard,
+.textHereText,
+.workoutmediumother {
+  align-self: stretch;
+  position: relative;
+}
+.textHereText {
+  font-size: var(--small-1-size);
+}
+.details {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+}
+.timeIcon {
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.min,
+.timeIcon {
+  position: relative;
+}
+.statssmall,
+.statssmall1 {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.statssmall {
+  display: flex;
+}
+.statssmall1 {
+  display: none;
+}
+.primarybuttonsdefault,
+.stats {
+  align-self: stretch;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+}
+.stats {
+  display: flex;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+}
+.primarybuttonsdefault {
+  border-radius: var(--br-7xs);
+  background-color: var(--orange-light);
+  border: 1px solid var(--orange-light);
+  box-sizing: border-box;
+  height: 34px;
+  flex-shrink: 0;
+  display: none;
+  padding: var(--padding-3xs);
+  justify-content: center;
+  color: var(--n0-white);
+}
+.cardinfo,
+.statswithcta,
+.workoutcard {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.statswithcta {
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+  text-align: center;
+  font-size: var(--small-1-size);
+  color: var(--n80-asphalt);
+}
+.cardinfo,
+.workoutcard {
+  flex: 1;
+}
+.cardinfo {
+  padding: var(--padding-lg) var(--padding-base) var(--padding-5xl);
+  justify-content: space-between;
+}
+.workoutcard {
+  text-decoration: none;
+  border-radius: var(--br-11xs);
+  background-color: var(--n0-white);
+  box-shadow: var(--drop-shadow-026);
+  justify-content: flex-start;
+  cursor: pointer;
+  text-align: left;
+  font-size: var(--p2-emphasis-size);
+  color: var(--n90-coal);
+  font-family: var(--p5);
+}

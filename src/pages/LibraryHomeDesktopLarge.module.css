@@ -1,0 +1,350 @@
+.userprofileimageIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+}
+.basedOnYour,
+.recommendedForYou {
+  position: relative;
+}
+.basedOnYour {
+  font-size: 13px;
+  letter-spacing: -0.7px;
+  color: var(--n70-gravel);
+}
+.sectionheaderrecommended,
+.text {
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-9xs) 0;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+}
+.sectionheaderrecommended {
+  align-self: stretch;
+  align-items: flex-start;
+}
+.zainspeedIcon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.workoutmediumrun {
+  height: 180px;
+}
+.sampleCard,
+.textHereText,
+.workoutmediumrun {
+  align-self: stretch;
+  position: relative;
+}
+.textHereText {
+  font-size: var(--small-1-size);
+}
+.details {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+}
+.runIcon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.run,
+.statssmall {
+  display: flex;
+  justify-content: flex-start;
+}
+.run {
+  width: 16px;
+  height: 16px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.statssmall {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-3xs);
+}
+.difficultyIcon {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.statssmall1 {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.primarybuttonsdefault,
+.stats {
+  align-self: stretch;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+}
+.stats {
+  display: flex;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+}
+.primarybuttonsdefault {
+  border-radius: var(--br-7xs);
+  background-color: var(--orange-light);
+  border: 1px solid var(--orange-light);
+  box-sizing: border-box;
+  height: 34px;
+  flex-shrink: 0;
+  display: none;
+  padding: var(--padding-3xs);
+  justify-content: center;
+  color: var(--n0-white);
+}
+.cardinfo,
+.statswithcta,
+.workoutcard {
+  align-self: stretch;
+  flex-direction: column;
+}
+.statswithcta {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+  text-align: center;
+  font-size: var(--small-1-size);
+  color: var(--n80-asphalt);
+}
+.cardinfo,
+.workoutcard {
+  flex: 1;
+}
+.cardinfo {
+  display: flex;
+  padding: var(--padding-lg) var(--padding-base) var(--padding-5xl);
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.workoutcard {
+  text-decoration: none;
+  border-radius: var(--br-11xs);
+  background-color: var(--n0-white);
+  box-shadow: var(--drop-shadow-026);
+  cursor: pointer;
+  color: inherit;
+}
+.cards,
+.col,
+.grid,
+.workoutcard {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.col {
+  width: 1216px;
+  height: 329px;
+  flex-direction: row;
+  gap: var(--gap-mini);
+}
+.cards,
+.grid {
+  flex-direction: column;
+}
+.cards {
+  align-self: stretch;
+  flex-direction: row;
+  font-size: var(--p2-emphasis-size);
+  color: var(--n90-coal);
+}
+.recommendedsection,
+.run1 {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.recommendedsection {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.run1 {
+  width: 24px;
+  height: 24px;
+}
+.cards1,
+.grid1,
+.run1,
+.sectionheaderactivity {
+  display: flex;
+  justify-content: flex-start;
+}
+.sectionheaderactivity {
+  align-self: stretch;
+  flex-direction: row;
+  padding: var(--padding-9xs) 0;
+  align-items: center;
+  gap: var(--gap-2xs);
+}
+.cards1,
+.grid1 {
+  align-items: flex-start;
+}
+.grid1 {
+  height: 673px;
+  flex-direction: column;
+  gap: var(--gap-mini);
+}
+.cards1 {
+  align-self: stretch;
+  flex-direction: row;
+}
+.workoutcard1 {
+  flex: 1;
+  border-radius: var(--br-11xs);
+  background-color: var(--n0-white);
+  box-shadow: var(--drop-shadow-026);
+  flex-direction: column;
+  align-items: flex-start;
+}
+.cards2,
+.details5,
+.stats5,
+.workoutcard1 {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.cards2 {
+  height: 329px;
+  flex-direction: row;
+  align-items: flex-start;
+  font-size: var(--p2-emphasis-size);
+  color: var(--n90-coal);
+}
+.details5,
+.stats5 {
+  gap: var(--gap-lg);
+}
+.details5 {
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  font-size: var(--p2-emphasis-size);
+}
+.stats5 {
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  color: var(--n80-asphalt);
+}
+.cardinfo5,
+.workoutcard5 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.cardinfo5 {
+  padding: var(--padding-lg) var(--padding-base) var(--padding-5xl);
+  justify-content: flex-end;
+  gap: var(--gap-lg);
+}
+.workoutcard5 {
+  border-radius: var(--br-11xs);
+  background-color: var(--n0-white);
+  box-shadow: var(--drop-shadow-026);
+  width: 292.75px;
+  justify-content: flex-start;
+}
+.col5 {
+  width: 1216px;
+  height: 329px;
+  flex-direction: row;
+}
+.cards3,
+.col5,
+.grid3 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.grid3 {
+  flex-direction: column;
+  gap: var(--gap-mini);
+}
+.cards3 {
+  align-self: stretch;
+  flex-direction: row;
+  text-align: center;
+  font-size: var(--small-1-size);
+  color: var(--n90-coal);
+}
+.rideIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.libraryresults,
+.pagecontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.libraryresults {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 32px;
+}
+.pagecontainer {
+  width: 1248px;
+  padding: 0 var(--padding-base);
+  box-sizing: border-box;
+  align-items: center;
+  gap: var(--gap-xl);
+}
+.pagewrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-12xs);
+  align-items: flex-start;
+  justify-content: center;
+}
+.libraryHomeDesktopLarge {
+  position: relative;
+  background-color: var(--n10-fog);
+  width: 100%;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--h5-size);
+  color: var(--color-black);
+  font-family: var(--p5);
+}
