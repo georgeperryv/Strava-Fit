@@ -9,7 +9,7 @@ const MainHeader: FunctionComponent = () => {
             <img
               className={styles.stravaLogoIcon}
               alt=""
-              src="/stravalogo2.svg"
+              src="/stravalogo21.svg"
             />
             <div className={styles.searchiconwrapper}>
               <img className={styles.searchIcon} alt="" src="/search1.svg" />
@@ -85,7 +85,7 @@ const MainHeader: FunctionComponent = () => {
         </div>
         <div className={styles.usermenu}>
           <div className={styles.notificationsnavitem}>
-            <img className={styles.bellIcon} alt="" src="/bell1.svg" />
+            <img className={styles.bellIcon} alt="" src="/bell11.svg" />
           </div>
           <div className={styles.profilenavitem}>
             <img

@@ -6,7 +6,7 @@ import RecentActivitiesContainer from "../components/RecentActivitiesContainer";
 import styles from "./GuidedWorkoutDetailsDeskto.module.css";
 const GuidedWorkoutDetailsDeskto: FunctionComponent = () => {
   return (
-    <div className={styles.guidedWorkoutDetailsDeskto}>
+    <div className={styles.guidedWorkoutDetails}>
       <Header />
       <div className={styles.pagewrapper}>
         <div className={styles.fullsizeimagecontainer}>
@@ -23,9 +23,9 @@ const GuidedWorkoutDetailsDeskto: FunctionComponent = () => {
         </div>
       </div>
       <RecentActivitiesContainer
-        productIds="/run.svg"
-        productIdsText="/run.svg"
-        productDimensions="/stravalogo1.svg"
+        productIds="16x16x1697476040"
+        productIdsText="16x16x1697476040"
+        productDimensions="117x24x2037012954"
       />
     </div>
   );

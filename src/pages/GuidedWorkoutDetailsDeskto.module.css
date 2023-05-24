@@ -30,7 +30,7 @@
   box-sizing: border-box;
   align-items: center;
 }
-.guidedWorkoutDetailsDeskto,
+.guidedWorkoutDetails,
 .pagecontainer,
 .pagewrapper {
   display: flex;
@@ -42,7 +42,7 @@
   height: 1427px;
   align-items: center;
 }
-.guidedWorkoutDetailsDeskto {
+.guidedWorkoutDetails {
   position: relative;
   background-color: var(--n10-fog);
   width: 100%;

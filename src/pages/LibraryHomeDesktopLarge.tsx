@@ -78,7 +78,7 @@ const LibraryHomeDesktopLarge: FunctionComponent = () => {
                                 <img
                                   className={styles.runIcon}
                                   alt=""
-                                  src="/run2.svg"
+                                  src="/run21.svg"
                                 />
                               </div>
                               <div className={styles.recommendedForYou}>
@@ -89,7 +89,7 @@ const LibraryHomeDesktopLarge: FunctionComponent = () => {
                               <img
                                 className={styles.difficultyIcon}
                                 alt=""
-                                src="/difficulty1.svg"
+                                src="/difficulty11.svg"
                               />
                               <div className={styles.recommendedForYou}>
                                 Easy
@@ -110,7 +110,7 @@ const LibraryHomeDesktopLarge: FunctionComponent = () => {
                       classInstructorName="Wind down with a calming yoga session that includes gentle and simple full body stretches for relaxation"
                       classId="/time1.svg"
                       classDuration="50 min"
-                      classImageId="/difficulty2.svg"
+                      classImageId="/difficulty21.svg"
                       classType="Easy"
                       onWorkoutCard1Click={onWorkoutCard1Click}
                     />
@@ -118,9 +118,9 @@ const LibraryHomeDesktopLarge: FunctionComponent = () => {
                       classDescription="/gabriellastrength@2x.png"
                       className={`Arms & Abs with Gabriella`}
                       classInstructorName="Join Gabriella to tone your abs and sculpt your abs in this quick and effective workout"
-                      classId="/time2.svg"
+                      classId="/time21.svg"
                       classDuration="15 min"
-                      classImageId="/difficulty3.svg"
+                      classImageId="/difficulty31.svg"
                       classType="Easy"
                       onWorkoutCard1Click={onWorkoutCard2Click}
                     />
@@ -130,7 +130,7 @@ const LibraryHomeDesktopLarge: FunctionComponent = () => {
                       classInstructorName="Build your endurance and speed in this 20-minute Fartlek run with Tal and alternate your pace across intervals"
                       classId="/time3.svg"
                       classDuration="20 min"
-                      classImageId="/difficulty4.svg"
+                      classImageId="/difficulty41.svg"
                       classType="Moderate"
                       onWorkoutCard1Click={onWorkoutCard3Click}
                     />
@@ -141,7 +141,7 @@ const LibraryHomeDesktopLarge: FunctionComponent = () => {
             <div className={styles.recommendedsection}>
               <div className={styles.sectionheaderactivity}>
                 <div className={styles.run1}>
-                  <img className={styles.runIcon} alt="" src="/run3.svg" />
+                  <img className={styles.runIcon} alt="" src="/run31.svg" />
                 </div>
                 <b className={styles.recommendedForYou}>Speed Runs</b>
               </div>
@@ -152,9 +152,9 @@ const LibraryHomeDesktopLarge: FunctionComponent = () => {
                       treyCity="/treycity@2x.png"
                       sampleCard="Speed Run with Trey"
                       textHereTextHereTextHereT="These high intensity intervals are designed to push you to your limits and test your speed and endurance"
-                      run="/run2.svg"
+                      run="/run21.svg"
                       mi="3.0 mi"
-                      difficulty="/difficulty1.svg"
+                      difficulty="/difficulty11.svg"
                       easy="Hard"
                     />
                     <WorkoutCardContainer
@@ -163,16 +163,16 @@ const LibraryHomeDesktopLarge: FunctionComponent = () => {
                       textHereTextHereTextHereT="Challenge your stamina in this fartlek run as Gabriella guides you through drills from easy jogs to all-out sprints"
                       time="/time1.svg"
                       min="35 min"
-                      difficulty="/difficulty2.svg"
+                      difficulty="/difficulty21.svg"
                       easy="Hard"
                     />
                     <WorkoutCardContainer
                       gabriellaHill="/christyhill@2x.png"
                       sampleCard="Hill Run with Christy"
                       textHereTextHereTextHereT="Find a hill or some stairs and join Christy in an uphill adventure of strength and endurance"
-                      time="/time2.svg"
+                      time="/time21.svg"
                       min="25 min"
-                      difficulty="/difficulty3.svg"
+                      difficulty="/difficulty31.svg"
                       easy="Moderate"
                       propFlex="1"
                       propWidth="unset"
@@ -183,7 +183,7 @@ const LibraryHomeDesktopLarge: FunctionComponent = () => {
                       textHereTextHereTextHereT="This moderate-paced fartlek run incorporates intervals of varied intensity to build your stamina and speed"
                       time="/time3.svg"
                       min="25 min"
-                      difficulty="/difficulty4.svg"
+                      difficulty="/difficulty41.svg"
                       easy="Moderate"
                       propFlex="1"
                       propWidth="unset"
@@ -196,7 +196,7 @@ const LibraryHomeDesktopLarge: FunctionComponent = () => {
                       textHereTextHereTextHereT="Experience the challenge of tackling uphill climbs and reap the rewards of increased strength and speed"
                       time="/time4.svg"
                       min="30 min"
-                      difficulty="/difficulty1.svg"
+                      difficulty="/difficulty11.svg"
                       easy="Hard"
                       propFlex="unset"
                       propWidth="292.75px"
@@ -205,9 +205,9 @@ const LibraryHomeDesktopLarge: FunctionComponent = () => {
                       treyCity="/zainspeed1@2x.png"
                       sampleCard="Speed Run with Zain"
                       textHereTextHereTextHereT="This beginner-friendly speed run will improve your strength through short and long intervals"
-                      run="/run4.svg"
+                      run="/run41.svg"
                       mi="2.5 mi"
-                      difficulty="/difficulty2.svg"
+                      difficulty="/difficulty21.svg"
                       easy="Easy"
                       propFlex="unset"
                       propWidth="292.75px"
@@ -216,9 +216,9 @@ const LibraryHomeDesktopLarge: FunctionComponent = () => {
                       gabriellaHill="/talrun1@2x.png"
                       sampleCard="Fartlek Run with Tal"
                       textHereTextHereTextHereT="Build your endurance and speed in this 20-minute Fartlek run with Tal and alternate your pace across intervals"
-                      time="/time2.svg"
+                      time="/time21.svg"
                       min="20 min"
-                      difficulty="/difficulty3.svg"
+                      difficulty="/difficulty31.svg"
                       easy="Moderate"
                       propFlex="unset"
                       propWidth="292.75px"
@@ -230,7 +230,7 @@ const LibraryHomeDesktopLarge: FunctionComponent = () => {
             <div className={styles.recommendedsection}>
               <div className={styles.sectionheaderactivity}>
                 <div className={styles.run1}>
-                  <img className={styles.runIcon} alt="" src="/run3.svg" />
+                  <img className={styles.runIcon} alt="" src="/run31.svg" />
                 </div>
                 <b className={styles.recommendedForYou}>Refreshing Runs</b>
               </div>
@@ -272,7 +272,7 @@ const LibraryHomeDesktopLarge: FunctionComponent = () => {
                               <img
                                 className={styles.difficultyIcon}
                                 alt=""
-                                src="/difficulty5.svg"
+                                src="/difficulty51.svg"
                               />
                               <div className={styles.recommendedForYou}>
                                 Easy
@@ -322,7 +322,7 @@ const LibraryHomeDesktopLarge: FunctionComponent = () => {
                               <img
                                 className={styles.difficultyIcon}
                                 alt=""
-                                src="/difficulty6.svg"
+                                src="/difficulty61.svg"
                               />
                               <div className={styles.recommendedForYou}>
                                 Easy
@@ -362,7 +362,7 @@ const LibraryHomeDesktopLarge: FunctionComponent = () => {
                               <img
                                 className={styles.difficultyIcon}
                                 alt=""
-                                src="/time2.svg"
+                                src="/time21.svg"
                               />
                               <div className={styles.recommendedForYou}>
                                 20 min
@@ -372,7 +372,7 @@ const LibraryHomeDesktopLarge: FunctionComponent = () => {
                               <img
                                 className={styles.difficultyIcon}
                                 alt=""
-                                src="/difficulty7.svg"
+                                src="/difficulty71.svg"
                               />
                               <div className={styles.recommendedForYou}>
                                 Easy
@@ -421,7 +421,7 @@ const LibraryHomeDesktopLarge: FunctionComponent = () => {
                               <img
                                 className={styles.difficultyIcon}
                                 alt=""
-                                src="/difficulty8.svg"
+                                src="/difficulty81.svg"
                               />
                               <div className={styles.recommendedForYou}>
                                 Easy
@@ -443,7 +443,7 @@ const LibraryHomeDesktopLarge: FunctionComponent = () => {
             <div className={styles.recommendedsection}>
               <div className={styles.sectionheaderactivity}>
                 <div className={styles.run1}>
-                  <img className={styles.runIcon} alt="" src="/run5.svg" />
+                  <img className={styles.runIcon} alt="" src="/run51.svg" />
                 </div>
                 <b className={styles.recommendedForYou}>Long Runs</b>
               </div>
@@ -454,9 +454,9 @@ const LibraryHomeDesktopLarge: FunctionComponent = () => {
                       treyCity="/tolurun@2x.png"
                       sampleCard="5K Long Run with Tolu"
                       textHereTextHereTextHereT="Lace up your shoes and hit the pavement with Tolu for a 5K run with Tolu's expert coaching"
-                      run="/run6.svg"
+                      run="/run61.svg"
                       mi="3.1 mi"
-                      difficulty="/difficulty5.svg"
+                      difficulty="/difficulty51.svg"
                       easy="Moderate"
                       propFlex="1"
                       propWidth="unset"
@@ -465,9 +465,9 @@ const LibraryHomeDesktopLarge: FunctionComponent = () => {
                       treyCity="/image-5@2x.png"
                       sampleCard="10K Long Run with Tony"
                       textHereTextHereTextHereT="Take your endurance to the next level over the next 6.2 miles – this run will help you build stamina and mental toughness"
-                      run="/run7.svg"
+                      run="/run71.svg"
                       mi="6.2 mi"
-                      difficulty="/difficulty6.svg"
+                      difficulty="/difficulty61.svg"
                       easy="Moderate"
                       propFlex="1"
                       propWidth="unset"
@@ -476,9 +476,9 @@ const LibraryHomeDesktopLarge: FunctionComponent = () => {
                       treyCity="/pexelsrunffwpu1555354-1@2x.png"
                       sampleCard="Half Marathon Progressive Run with Samir"
                       textHereTextHereTextHereT="Prep for your half marathon with this progressive run and Samir’s coaching"
-                      run="/run8.svg"
+                      run="/run81.svg"
                       mi="10.5 mi"
-                      difficulty="/difficulty7.svg"
+                      difficulty="/difficulty71.svg"
                       easy="Hard"
                       propFlex="1"
                       propWidth="unset"
@@ -489,7 +489,7 @@ const LibraryHomeDesktopLarge: FunctionComponent = () => {
                       textHereTextHereTextHereT="You’ll be unstoppable after 12 miles of this progressive run with Vivian"
                       run="/run9.svg"
                       mi="12.0 mi"
-                      difficulty="/difficulty8.svg"
+                      difficulty="/difficulty81.svg"
                       easy="Hard"
                       propFlex="1"
                       propWidth="unset"
@@ -519,7 +519,7 @@ const LibraryHomeDesktopLarge: FunctionComponent = () => {
                               <img
                                 className={styles.runIcon}
                                 alt=""
-                                src="/run6.svg"
+                                src="/run61.svg"
                               />
                             </div>
                             <div className={styles.recommendedForYou}>
@@ -530,7 +530,7 @@ const LibraryHomeDesktopLarge: FunctionComponent = () => {
                             <img
                               className={styles.difficultyIcon}
                               alt=""
-                              src="/difficulty5.svg"
+                              src="/difficulty51.svg"
                             />
                             <div className={styles.recommendedForYou}>Hard</div>
                           </div>
@@ -548,7 +548,7 @@ const LibraryHomeDesktopLarge: FunctionComponent = () => {
             </div>
             <div className={styles.recommendedsection}>
               <div className={styles.sectionheaderactivity}>
-                <img className={styles.rideIcon} alt="" src="/ride1.svg" />
+                <img className={styles.rideIcon} alt="" src="/ride11.svg" />
                 <b className={styles.recommendedForYou}>Speed Rides</b>
               </div>
               <div className={styles.cards}>
@@ -589,7 +589,7 @@ const LibraryHomeDesktopLarge: FunctionComponent = () => {
                               <img
                                 className={styles.difficultyIcon}
                                 alt=""
-                                src="/difficulty5.svg"
+                                src="/difficulty51.svg"
                               />
                               <div className={styles.recommendedForYou}>
                                 Moderate
@@ -629,7 +629,7 @@ const LibraryHomeDesktopLarge: FunctionComponent = () => {
                               <img
                                 className={styles.difficultyIcon}
                                 alt=""
-                                src="/ride2.svg"
+                                src="/ride21.svg"
                               />
                               <div className={styles.recommendedForYou}>
                                 15.0 mi
@@ -639,7 +639,7 @@ const LibraryHomeDesktopLarge: FunctionComponent = () => {
                               <img
                                 className={styles.difficultyIcon}
                                 alt=""
-                                src="/difficulty6.svg"
+                                src="/difficulty61.svg"
                               />
                               <div className={styles.recommendedForYou}>
                                 Moderate
@@ -679,7 +679,7 @@ const LibraryHomeDesktopLarge: FunctionComponent = () => {
                               <img
                                 className={styles.difficultyIcon}
                                 alt=""
-                                src="/time2.svg"
+                                src="/time21.svg"
                               />
                               <div className={styles.recommendedForYou}>
                                 60 min
@@ -689,7 +689,7 @@ const LibraryHomeDesktopLarge: FunctionComponent = () => {
                               <img
                                 className={styles.difficultyIcon}
                                 alt=""
-                                src="/difficulty7.svg"
+                                src="/difficulty71.svg"
                               />
                               <div className={styles.recommendedForYou}>
                                 Hard
@@ -739,7 +739,7 @@ const LibraryHomeDesktopLarge: FunctionComponent = () => {
                               <img
                                 className={styles.difficultyIcon}
                                 alt=""
-                                src="/difficulty8.svg"
+                                src="/difficulty81.svg"
                               />
                               <div className={styles.recommendedForYou}>
                                 Hard
@@ -760,7 +760,7 @@ const LibraryHomeDesktopLarge: FunctionComponent = () => {
             </div>
             <div className={styles.recommendedsection}>
               <div className={styles.sectionheaderactivity}>
-                <img className={styles.rideIcon} alt="" src="/ride3.svg" />
+                <img className={styles.rideIcon} alt="" src="/ride31.svg" />
                 <b className={styles.recommendedForYou}>Long Rides</b>
               </div>
               <div className={styles.cards}>
@@ -838,7 +838,7 @@ const LibraryHomeDesktopLarge: FunctionComponent = () => {
                               <img
                                 className={styles.difficultyIcon}
                                 alt=""
-                                src="/ride2.svg"
+                                src="/ride21.svg"
                               />
                               <div className={styles.recommendedForYou}>
                                 40.0 mi
@@ -897,7 +897,7 @@ const LibraryHomeDesktopLarge: FunctionComponent = () => {
                               <img
                                 className={styles.difficultyIcon}
                                 alt=""
-                                src="/difficulty11.svg"
+                                src="/difficulty111.svg"
                               />
                               <div className={styles.recommendedForYou}>
                                 Hard
@@ -968,7 +968,7 @@ const LibraryHomeDesktopLarge: FunctionComponent = () => {
             </div>
             <div className={styles.recommendedsection}>
               <div className={styles.sectionheaderactivity}>
-                <img className={styles.rideIcon} alt="" src="/strength1.svg" />
+                <img className={styles.rideIcon} alt="" src="/strength11.svg" />
                 <b className={styles.recommendedForYou}>
                   Quick Strength Training
                 </b>
@@ -1098,7 +1098,7 @@ const LibraryHomeDesktopLarge: FunctionComponent = () => {
                               <img
                                 className={styles.difficultyIcon}
                                 alt=""
-                                src="/time2.svg"
+                                src="/time21.svg"
                               />
                               <div className={styles.recommendedForYou}>
                                 15 min
@@ -1218,7 +1218,7 @@ const LibraryHomeDesktopLarge: FunctionComponent = () => {
                               <img
                                 className={styles.difficultyIcon}
                                 alt=""
-                                src="/difficulty5.svg"
+                                src="/difficulty51.svg"
                               />
                               <div className={styles.recommendedForYou}>
                                 Easy
@@ -1267,7 +1267,7 @@ const LibraryHomeDesktopLarge: FunctionComponent = () => {
                               <img
                                 className={styles.difficultyIcon}
                                 alt=""
-                                src="/difficulty6.svg"
+                                src="/difficulty61.svg"
                               />
                               <div className={styles.recommendedForYou}>
                                 Moderate
@@ -1307,7 +1307,7 @@ const LibraryHomeDesktopLarge: FunctionComponent = () => {
                               <img
                                 className={styles.difficultyIcon}
                                 alt=""
-                                src="/time2.svg"
+                                src="/time21.svg"
                               />
                               <div className={styles.recommendedForYou}>
                                 20 min
@@ -1317,7 +1317,7 @@ const LibraryHomeDesktopLarge: FunctionComponent = () => {
                               <img
                                 className={styles.difficultyIcon}
                                 alt=""
-                                src="/difficulty7.svg"
+                                src="/difficulty71.svg"
                               />
                               <div className={styles.recommendedForYou}>
                                 Hard
@@ -1367,7 +1367,7 @@ const LibraryHomeDesktopLarge: FunctionComponent = () => {
                               <img
                                 className={styles.difficultyIcon}
                                 alt=""
-                                src="/difficulty8.svg"
+                                src="/difficulty81.svg"
                               />
                               <div className={styles.recommendedForYou}>
                                 Moderate
@@ -1418,7 +1418,7 @@ const LibraryHomeDesktopLarge: FunctionComponent = () => {
                               <img
                                 className={styles.difficultyIcon}
                                 alt=""
-                                src="/difficulty5.svg"
+                                src="/difficulty51.svg"
                               />
                               <div className={styles.recommendedForYou}>
                                 Easy
@@ -1482,7 +1482,7 @@ const LibraryHomeDesktopLarge: FunctionComponent = () => {
                               <img
                                 className={styles.difficultyIcon}
                                 alt=""
-                                src="/difficulty5.svg"
+                                src="/difficulty51.svg"
                               />
                               <div className={styles.recommendedForYou}>
                                 Easy
@@ -1532,7 +1532,7 @@ const LibraryHomeDesktopLarge: FunctionComponent = () => {
                               <img
                                 className={styles.difficultyIcon}
                                 alt=""
-                                src="/difficulty6.svg"
+                                src="/difficulty61.svg"
                               />
                               <div className={styles.recommendedForYou}>
                                 Moderate
@@ -1572,7 +1572,7 @@ const LibraryHomeDesktopLarge: FunctionComponent = () => {
                               <img
                                 className={styles.difficultyIcon}
                                 alt=""
-                                src="/time2.svg"
+                                src="/time21.svg"
                               />
                               <div className={styles.recommendedForYou}>
                                 45 min
@@ -1582,7 +1582,7 @@ const LibraryHomeDesktopLarge: FunctionComponent = () => {
                               <img
                                 className={styles.difficultyIcon}
                                 alt=""
-                                src="/difficulty7.svg"
+                                src="/difficulty71.svg"
                               />
                               <div className={styles.recommendedForYou}>
                                 Hard
@@ -1630,7 +1630,7 @@ const LibraryHomeDesktopLarge: FunctionComponent = () => {
                               <img
                                 className={styles.difficultyIcon}
                                 alt=""
-                                src="/difficulty8.svg"
+                                src="/difficulty81.svg"
                               />
                               <div className={styles.recommendedForYou}>
                                 Moderate
@@ -1681,7 +1681,7 @@ const LibraryHomeDesktopLarge: FunctionComponent = () => {
                               <img
                                 className={styles.difficultyIcon}
                                 alt=""
-                                src="/difficulty5.svg"
+                                src="/difficulty51.svg"
                               />
                               <div className={styles.recommendedForYou}>
                                 Easy
@@ -1742,7 +1742,7 @@ const LibraryHomeDesktopLarge: FunctionComponent = () => {
                               <img
                                 className={styles.difficultyIcon}
                                 alt=""
-                                src="/difficulty5.svg"
+                                src="/difficulty51.svg"
                               />
                               <div className={styles.recommendedForYou}>
                                 Easy
@@ -1792,7 +1792,7 @@ const LibraryHomeDesktopLarge: FunctionComponent = () => {
                               <img
                                 className={styles.difficultyIcon}
                                 alt=""
-                                src="/difficulty6.svg"
+                                src="/difficulty61.svg"
                               />
                               <div className={styles.recommendedForYou}>
                                 Moderate
@@ -1832,7 +1832,7 @@ const LibraryHomeDesktopLarge: FunctionComponent = () => {
                               <img
                                 className={styles.difficultyIcon}
                                 alt=""
-                                src="/time2.svg"
+                                src="/time21.svg"
                               />
                               <div className={styles.recommendedForYou}>
                                 30 min
@@ -1842,7 +1842,7 @@ const LibraryHomeDesktopLarge: FunctionComponent = () => {
                               <img
                                 className={styles.difficultyIcon}
                                 alt=""
-                                src="/difficulty7.svg"
+                                src="/difficulty71.svg"
                               />
                               <div className={styles.recommendedForYou}>
                                 Hard
@@ -1891,7 +1891,7 @@ const LibraryHomeDesktopLarge: FunctionComponent = () => {
                               <img
                                 className={styles.difficultyIcon}
                                 alt=""
-                                src="/difficulty8.svg"
+                                src="/difficulty81.svg"
                               />
                               <div className={styles.recommendedForYou}>
                                 Moderate
@@ -1942,7 +1942,7 @@ const LibraryHomeDesktopLarge: FunctionComponent = () => {
                               <img
                                 className={styles.difficultyIcon}
                                 alt=""
-                                src="/difficulty1.svg"
+                                src="/difficulty11.svg"
                               />
                               <div className={styles.recommendedForYou}>
                                 Easy
@@ -1965,9 +1965,9 @@ const LibraryHomeDesktopLarge: FunctionComponent = () => {
         </div>
       </div>
       <RecentActivitiesContainer
-        productIds="/run1.svg"
-        productIdsText="/run1.svg"
-        productDimensions="/stravalogo3.svg"
+        productIds="/run11.svg"
+        productIdsText="/run11.svg"
+        productDimensions="/stravalogo31.svg"
       />
     </div>
   );

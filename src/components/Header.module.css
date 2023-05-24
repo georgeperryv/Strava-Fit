@@ -107,7 +107,7 @@
   height: 56px;
   align-items: flex-end;
   justify-content: center;
-  color: var(--color-black);
+  color: var(--n100-black);
 }
 .navlinks,
 .navmenu {
@@ -173,7 +173,7 @@
   box-shadow: 0 2px 3px rgba(53, 53, 53, 0.05);
   height: 56px;
   text-align: center;
-  font-size: var(--small-1-size);
+  font-size: var(--small-1-emphasis-size);
   color: var(--n80-asphalt);
-  font-family: var(--p5);
+  font-family: var(--small-2-emphasis);
 }

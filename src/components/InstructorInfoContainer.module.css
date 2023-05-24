@@ -89,7 +89,7 @@
   flex-direction: row;
   justify-content: center;
   gap: var(--gap-7xs);
-  font-size: var(--small-1-size);
+  font-size: var(--small-1-emphasis-size);
 }
 .instructorinfo1 {
   flex-direction: column;
@@ -109,7 +109,7 @@
   padding: var(--padding-3xs);
   align-items: center;
   justify-content: center;
-  font-size: var(--small-1-size);
+  font-size: var(--small-1-emphasis-size);
   color: var(--orange-light);
 }
 .instructorinfoandcta,
@@ -141,6 +141,6 @@
   justify-content: space-between;
   text-align: left;
   font-size: var(--p3-emphasis-size);
-  color: var(--color-black);
-  font-family: var(--p5);
+  color: var(--n100-black);
+  font-family: var(--small-2-emphasis);
 }

@@ -57,12 +57,12 @@
   gap: var(--gap-base);
 }
 .adventureStoriesTraining {
-  color: var(--color-black);
+  color: var(--n100-black);
 }
 .readOurBlogContainer {
   align-self: stretch;
   position: relative;
-  font-size: var(--small-1-size);
+  font-size: var(--small-1-emphasis-size);
   text-align: left;
   color: var(--n80-asphalt);
 }
@@ -151,7 +151,7 @@
   align-self: stretch;
   align-items: center;
   gap: var(--gap-5xs);
-  color: var(--color-black);
+  color: var(--n100-black);
 }
 .footercontainer1 {
   width: 1248px;
@@ -178,6 +178,6 @@
   justify-content: flex-start;
   text-align: center;
   font-size: var(--h4-size);
-  color: var(--color-black);
-  font-family: var(--p5);
+  color: var(--n100-black);
+  font-family: var(--small-2-emphasis);
 }

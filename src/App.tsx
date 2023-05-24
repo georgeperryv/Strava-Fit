@@ -5,6 +5,8 @@ import {
   useLocation,
 } from "react-router-dom";
 import GuidedWorkoutDetailsDeskto from "./pages/GuidedWorkoutDetailsDeskto";
+import ExpandedMenu from "./pages/ExpandedMenu";
+import LibraryHome from "./pages/LibraryHome";
 import LibraryHomeDesktopLarge from "./pages/LibraryHomeDesktopLarge";
 import { useEffect } from "react";
 
@@ -25,6 +27,14 @@ function App() {
 
     switch (pathname) {
       case "/":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/expandedmenu":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/library-home":
         title = "";
         metaDescription = "";
         break;
@@ -51,6 +61,8 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<GuidedWorkoutDetailsDeskto />} />
+      <Route path="/expandedmenu" element={<ExpandedMenu />} />
+      <Route path="/library-home" element={<LibraryHome />} />
       <Route
         path="/library-home-desktop-large"
         element={<LibraryHomeDesktopLarge />}

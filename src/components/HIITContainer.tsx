@@ -6,12 +6,12 @@ const HIITContainer: FunctionComponent = () => {
       <div className={styles.filter}>
         <div className={styles.activitytag}>
           <div className={styles.run}>
-            <img className={styles.runIcon} alt="" src="/run1.svg" />
+            <img className={styles.runIcon} alt="" src="/run11.svg" />
           </div>
           <div className={styles.run1}>Run</div>
         </div>
         <div className={styles.activitytag}>
-          <img className={styles.rideIcon} alt="" src="/ride.svg" />
+          <img className={styles.rideIcon} alt="" src="/ride3.svg" />
           <div className={styles.run1}>Ride</div>
         </div>
         <div className={styles.activitytag}>
@@ -28,7 +28,7 @@ const HIITContainer: FunctionComponent = () => {
         </div>
       </div>
       <div className={styles.filterbutton}>
-        <img className={styles.filterIcon} alt="" src="/filter.svg" />
+        <img className={styles.filterIcon} alt="" src="/filter1.svg" />
       </div>
     </div>
   );

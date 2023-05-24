@@ -5,29 +5,34 @@ body {
 }
 :root {
   /* fonts */
-  --p5: "Neuzeit Grotesk";
+  --small-2-emphasis: "Neuzeit Grotesk";
 
   /* font sizes */
   --p5-size: 15px;
   --h4-size: 22px;
-  --small-1-size: 14px;
+  --small-1-emphasis-size: 14px;
   --small-2-emphasis-size: 10px;
   --p4-size: 16px;
   --p3-emphasis-size: 17px;
   --h5-size: 20px;
   --h2-desktop-size: 48px;
   --p2-emphasis-size: 18px;
+  --font-size-smi: 13px;
 
   /* Colors */
   --n10-fog: #f7f7fa;
   --n0-white: #fff;
-  --color-black: #000;
+  --n100-black: #000;
   --n70-gravel: #6d6d78;
   --n80-asphalt: #494950;
   --n20-icicle: #f0f0f5;
   --orange-light: #e9602a;
+  --color-gainsboro-100: #e7e7eb;
   --n40: #e1e2e3;
+  --n30-silver: #dfdfe8;
+  --color-gray-100: #fefefe;
   --n90-coal: #242428;
+  --n50: #b0b0b0;
 
   /* Gaps */
   --gap-lgi: 19px;
@@ -44,6 +49,7 @@ body {
   --gap-63xl: 82px;
   --gap-9xs: 4px;
   --gap-xl: 20px;
+  --gap-13xl: 32px;
   --gap-mini: 15px;
   --gap-2xs: 11px;
 
@@ -62,16 +68,19 @@ body {
   --padding-lg: 18px;
   --padding-smi: 13px;
   --padding-3xl: 22px;
+  --padding-sm: 14px;
   --padding-9xs: 4px;
-  --padding-mini: 15px;
   --padding-8xs-5: 4.5px;
+  --padding-mini: 15px;
 
   /* border radiuses */
   --br-7xs: 6px;
   --br-9xs: 4px;
-  --br-11xs: 2px;
+  --br-10xs: 3px;
   --br-8xs: 5px;
+  --br-11xs: 2px;
 
   /* Effects */
+  --default: 1px 2px 6px rgba(0, 0, 0, 0.07);
   --drop-shadow-026: 0px 2px 6px rgba(53, 53, 53, 0.15);
 }

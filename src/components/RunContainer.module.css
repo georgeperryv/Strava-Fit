@@ -82,7 +82,7 @@
   padding: 0 var(--padding-xs);
   justify-content: flex-start;
   text-align: center;
-  font-size: var(--small-1-size);
+  font-size: var(--small-1-emphasis-size);
   color: var(--n0-white);
 }
 .intro,
@@ -102,6 +102,6 @@
   gap: var(--gap-63xl);
   text-align: center;
   font-size: var(--h2-desktop-size);
-  color: var(--color-black);
-  font-family: var(--p5);
+  color: var(--n100-black);
+  font-family: var(--small-2-emphasis);
 }

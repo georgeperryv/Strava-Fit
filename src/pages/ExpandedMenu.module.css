@@ -1,0 +1,95 @@
+.partialborder {
+  position: relative;
+  background-color: var(--n30-silver);
+  width: 55px;
+  height: 1px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.subscription {
+  position: relative;
+  line-height: 15px;
+  text-transform: uppercase;
+}
+.subscriptionsectionheader {
+  align-self: stretch;
+  background-color: var(--n10-fog);
+  height: 23px;
+  display: flex;
+  flex-direction: row;
+  padding: 2px var(--padding-xs);
+  box-sizing: border-box;
+  align-items: flex-end;
+  justify-content: flex-start;
+  text-align: center;
+  font-size: var(--small-2-emphasis-size);
+  color: var(--n100-black);
+}
+.dashboard {
+  position: relative;
+  letter-spacing: -0.7px;
+}
+.navlinkcontainersubcategoory {
+  align-self: stretch;
+  height: 46px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+}
+.dashboard1 {
+  position: relative;
+}
+.navlinks,
+.subscriberonlylinks {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.subscriberonlylinks {
+  align-self: stretch;
+  background-color: var(--n10-fog);
+  border-top: 1px solid var(--n20-icicle);
+  border-bottom: 1px solid var(--n20-icicle);
+}
+.navlinks {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--n0-white);
+  border-right: 1px solid var(--n30-silver);
+  border-left: 1px solid var(--n30-silver);
+  box-sizing: border-box;
+  width: 160px;
+}
+.activeindicator,
+.navlinksWrapper {
+  position: relative;
+  width: 160px;
+  height: 115px;
+}
+.activeindicator {
+  background-color: var(--orange-light);
+  height: 2px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.expandedmenu {
+  position: relative;
+  background-color: var(--n0-white);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--p5-size);
+  color: var(--n90-coal);
+  font-family: var(--small-2-emphasis);
+}

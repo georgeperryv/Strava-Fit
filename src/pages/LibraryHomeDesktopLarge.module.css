@@ -9,7 +9,7 @@
   position: relative;
 }
 .basedOnYour {
-  font-size: 13px;
+  font-size: var(--font-size-smi);
   letter-spacing: -0.7px;
   color: var(--n70-gravel);
 }
@@ -49,7 +49,7 @@
   position: relative;
 }
 .textHereText {
-  font-size: var(--small-1-size);
+  font-size: var(--small-1-emphasis-size);
 }
 .details {
   align-self: stretch;
@@ -133,7 +133,7 @@
   justify-content: flex-start;
   gap: var(--gap-lg);
   text-align: center;
-  font-size: var(--small-1-size);
+  font-size: var(--small-1-emphasis-size);
   color: var(--n80-asphalt);
 }
 .cardinfo,
@@ -298,7 +298,7 @@
   align-self: stretch;
   flex-direction: row;
   text-align: center;
-  font-size: var(--small-1-size);
+  font-size: var(--small-1-emphasis-size);
   color: var(--n90-coal);
 }
 .rideIcon {
@@ -317,7 +317,7 @@
 .libraryresults {
   align-self: stretch;
   align-items: flex-start;
-  gap: 32px;
+  gap: var(--gap-13xl);
 }
 .pagecontainer {
   width: 1248px;
@@ -345,6 +345,6 @@
   justify-content: flex-start;
   text-align: left;
   font-size: var(--h5-size);
-  color: var(--color-black);
-  font-family: var(--p5);
+  color: var(--n100-black);
+  font-family: var(--small-2-emphasis);
 }

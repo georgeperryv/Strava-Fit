@@ -70,7 +70,7 @@
   align-items: flex-start;
   justify-content: space-between;
   text-align: center;
-  font-size: var(--small-1-size);
-  color: var(--color-black);
-  font-family: var(--p5);
+  font-size: var(--small-1-emphasis-size);
+  color: var(--n100-black);
+  font-family: var(--small-2-emphasis);
 }
