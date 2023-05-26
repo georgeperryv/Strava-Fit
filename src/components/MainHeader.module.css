@@ -86,7 +86,7 @@
 .label4 {
   position: relative;
   font-size: var(--small-1-emphasis-size);
-  font-family: var(--p5);
+  font-family: var(--small-1-emphasis);
   color: var(--n100-black);
   text-align: center;
 }
@@ -196,5 +196,5 @@
   text-align: center;
   font-size: var(--small-1-emphasis-size);
   color: var(--n80-asphalt);
-  font-family: var(--p5);
+  font-family: var(--small-1-emphasis);
 }

@@ -1,4 +1,11 @@
 import { FunctionComponent } from "react";
+import {
+  Slider,
+  SliderTrack,
+  SliderFilledTrack,
+  SliderThumb,
+  SliderMark,
+} from "@chakra-ui/react";
 import styles from "./FilterDropdown.module.css";
 
 type FilterDropdownType = {
@@ -7,7 +14,7 @@ type FilterDropdownType = {
 
 const FilterDropdown: FunctionComponent<FilterDropdownType> = ({ onClose }) => {
   return (
-    <div className={styles.filterDropdown}>
+    <div className={styles.filterdropdowncomponent}>
       <div className={styles.filtermodal}>
         <div className={styles.distancefilter}>
           <div className={styles.distanceslider}>
@@ -15,49 +22,57 @@ const FilterDropdown: FunctionComponent<FilterDropdownType> = ({ onClose }) => {
               <div className={styles.distance}>Distance</div>
               <div className={styles.distance}>Any</div>
             </div>
-            <div className={styles.slider}>
-              <div className={styles.knob} />
-              <div className={styles.selectedarea} />
-              <div className={styles.knob} />
-            </div>
+            <Slider
+              className={styles.slider}
+              defaultValue={0}
+              colorScheme="stravaorange"
+              min={10}
+              max={100}
+              step={5}
+            >
+              <SliderTrack>
+                <SliderFilledTrack />
+              </SliderTrack>
+              <SliderThumb />
+            </Slider>
           </div>
         </div>
         <div className={styles.timefilter}>
           <div className={styles.distance}>Time</div>
           <div className={styles.options}>
             <div className={styles.row1}>
-              <div className={styles.activitytag}>
+              <button className={styles.activitytag}>
                 <div className={styles.run}>
                   <img className={styles.runIcon} alt="" src="/run1.svg" />
                 </div>
-                <div className={styles.moderate}>{`< 15 min`}</div>
-              </div>
-              <div className={styles.activitytag}>
+                <div className={styles.run1}>{`< 15 min`}</div>
+              </button>
+              <button className={styles.activitytag1}>
                 <div className={styles.run}>
                   <img className={styles.runIcon} alt="" src="/run1.svg" />
                 </div>
-                <div className={styles.moderate}>15 - 30 min</div>
-              </div>
-              <div className={styles.activitytag}>
+                <div className={styles.run1}>15 - 30 min</div>
+              </button>
+              <button className={styles.activitytag2}>
                 <div className={styles.run}>
                   <img className={styles.runIcon} alt="" src="/run1.svg" />
                 </div>
-                <div className={styles.moderate}>30 - 45 min</div>
-              </div>
+                <div className={styles.run1}>30 - 45 min</div>
+              </button>
             </div>
             <div className={styles.row1}>
-              <div className={styles.activitytag}>
+              <button className={styles.activitytag1}>
                 <div className={styles.run}>
                   <img className={styles.runIcon} alt="" src="/run1.svg" />
                 </div>
-                <div className={styles.moderate}>45 min - 1 hr</div>
-              </div>
-              <div className={styles.activitytag}>
+                <div className={styles.run1}>45 min - 1 hr</div>
+              </button>
+              <button className={styles.activitytag1}>
                 <div className={styles.run}>
                   <img className={styles.runIcon} alt="" src="/run1.svg" />
                 </div>
-                <div className={styles.moderate}>1 hr +</div>
-              </div>
+                <div className={styles.run1}>1 hr +</div>
+              </button>
             </div>
           </div>
         </div>

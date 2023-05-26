@@ -3,35 +3,14 @@
   line-height: 20px;
 }
 .labels {
-  align-self: stretch;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-between;
 }
-.knob {
-  position: relative;
-  border-radius: var(--br-11xs);
-  background-color: var(--color-gray-100);
-  box-shadow: 0 0 3px rgba(80, 83, 90, 0.15);
-  border: 0.5px solid var(--color-gainsboro-100);
-  box-sizing: border-box;
-  width: 16px;
-  height: 28px;
-}
-.selectedarea {
-  flex: 1;
-  position: relative;
-  background-color: var(--orange-light);
-  height: 5px;
-  overflow: hidden;
-}
+.labels,
 .slider {
   align-self: stretch;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
 }
 .distancefilter,
 .distanceslider {
@@ -57,49 +36,84 @@
   overflow: hidden;
   max-height: 100%;
 }
-.activitytag,
-.run {
-  justify-content: flex-start;
-}
 .run {
   width: 16px;
   height: 16px;
   display: none;
   flex-direction: column;
   align-items: flex-start;
+  justify-content: flex-start;
+}
+.run1 {
+  position: relative;
+  font-size: var(--small-1-emphasis-size);
+  font-family: var(--small-1-emphasis);
+  color: var(--n100-black);
+  text-align: center;
 }
 .activitytag {
-  border-radius: var(--br-8xs);
+  cursor: pointer;
   border: 1px solid var(--n70-gravel);
+  padding: var(--padding-8xs-5) 6px;
+  background-color: var(--n0-white);
+  border-radius: var(--br-8xs);
   box-sizing: border-box;
   height: 32px;
   overflow: hidden;
   display: flex;
   flex-direction: row;
-  padding: var(--padding-8xs-5) var(--padding-smi);
   align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.activitytag:hover {
+  background-color: var(--color-gainsboro-200);
+  border-radius: var(--br-8xs);
+}
+.activitytag:focus {
+  background-color: var(--orange-light);
+}
+.activitytag1,
+.activitytag2 {
+  cursor: pointer;
+  border: 1px solid var(--n70-gravel);
+  padding: var(--padding-8xs-5) var(--padding-smi);
+  background-color: var(--n0-white);
+  border-radius: var(--br-8xs);
+  box-sizing: border-box;
+  height: 32px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
   gap: var(--gap-5xs);
+}
+.activitytag1:hover {
+  background-color: var(--color-gainsboro-200);
+}
+.activitytag1:focus {
+  background-color: var(--orange-light);
+}
+.activitytag2:hover {
+  background-color: var(--color-gainsboro-200);
+}
+.activitytag2:focus {
+  background-color: var(--orange-light);
 }
 .options,
 .row1,
 .timefilter {
   display: flex;
+  flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-}
-.row1 {
-  flex-direction: row;
   gap: var(--gap-3xs);
 }
 .options,
 .timefilter {
   flex-direction: column;
-}
-.options {
   gap: var(--gap-xs);
-  text-align: center;
-  font-size: var(--small-1-emphasis-size);
-  color: var(--n100-black);
 }
 .timefilter {
   align-self: stretch;
@@ -206,7 +220,7 @@
   justify-content: flex-start;
   mix-blend-mode: normal;
 }
-.filterDropdown {
+.filterdropdowncomponent {
   position: relative;
   width: 342px;
   height: 490px;
@@ -216,5 +230,5 @@
   text-align: left;
   font-size: var(--p4-size);
   color: var(--n90-coal);
-  font-family: var(--p5);
+  font-family: var(--small-1-emphasis);
 }
