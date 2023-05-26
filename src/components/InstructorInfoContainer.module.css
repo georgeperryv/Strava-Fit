@@ -130,7 +130,7 @@
   justify-content: center;
   gap: var(--gap-5xl);
   text-align: center;
-  font-size: var(--small-2-emphasis-size);
+  font-size: var(--small-2-size);
 }
 .instructorinfo {
   align-self: stretch;
@@ -142,5 +142,5 @@
   text-align: left;
   font-size: var(--p3-emphasis-size);
   color: var(--n100-black);
-  font-family: var(--small-2-emphasis);
+  font-family: var(--p5);
 }

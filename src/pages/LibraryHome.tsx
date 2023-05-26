@@ -1,14 +1,25 @@
 import { FunctionComponent, useState, useRef, useCallback } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Dropdown, DropdownButton, SplitButton, Button } from "react-bootstrap";
-import FilterDropdown from "../components/FilterDropdown";
+import { Button } from "react-bootstrap";
+import ExpandedMenu from "./ExpandedMenu";
 import PortalPopup from "../components/PortalPopup";
+import FilterDropdown from "../components/FilterDropdown";
 import { Link } from "react-router-dom";
 import styles from "./LibraryHome.module.css";
 const LibraryHome: FunctionComponent = () => {
+  const navLinksContainer4Ref = useRef<HTMLDivElement>(null);
+  const [isExpandedMenuPopupOpen, setExpandedMenuPopupOpen] = useState(false);
   const filterDropdownContainerRef = useRef<HTMLDivElement>(null);
   const [isFilterDropdownPopupOpen, setFilterDropdownPopupOpen] =
     useState(false);
+
+  const openExpandedMenuPopup = useCallback(() => {
+    setExpandedMenuPopupOpen(true);
+  }, []);
+
+  const closeExpandedMenuPopup = useCallback(() => {
+    setExpandedMenuPopupOpen(false);
+  }, []);
 
   const openFilterDropdownPopup = useCallback(() => {
     setFilterDropdownPopupOpen(true);
@@ -83,17 +94,23 @@ const LibraryHome: FunctionComponent = () => {
                     <div className={styles.activeindicator} />
                   </div>
                 </div>
-                <DropdownButton
-                  title="StravaFit"
-                  variant="secondary"
-                  align="start"
-                  drop="down"
-                  id="5"
+                <div
+                  className={styles.navlinks4}
+                  ref={navLinksContainer4Ref}
+                  onClick={openExpandedMenuPopup}
                 >
-                  <Dropdown.Item>SUBSCRIPTION</Dropdown.Item>
-                  <Dropdown.Item>Explore Workouts</Dropdown.Item>
-                  <Dropdown.Item>My Saved Workouts</Dropdown.Item>
-                </DropdownButton>
+                  <div className={styles.pagetab}>
+                    <div className={styles.pagetablabel4}>
+                      <b className={styles.label}>StravaFit</b>
+                      <img
+                        className={styles.dropdownIcon}
+                        alt=""
+                        src="/dropdown1.svg"
+                      />
+                    </div>
+                    <div className={styles.activeindicator4} />
+                  </div>
+                </div>
               </div>
             </div>
             <div className={styles.usermenu}>
@@ -156,7 +173,10 @@ const LibraryHome: FunctionComponent = () => {
                 <div className={styles.cards}>
                   <div className={styles.grid}>
                     <div className={styles.col}>
-                      <Link className={styles.workoutcard} to="/">
+                      <Link
+                        className={styles.workoutcard}
+                        to="/guided-workout-details"
+                      >
                         <div className={styles.workoutmediumrun}>
                           <img
                             className={styles.zainspeedIcon}
@@ -2476,7 +2496,7 @@ const LibraryHome: FunctionComponent = () => {
                   <div className={styles.languagedropdown}>
                     <div className={styles.label}>{`English (US) `}</div>
                     <img
-                      className={styles.dropdownIcon5}
+                      className={styles.dropdownIcon6}
                       alt=""
                       src="/dropdown41.svg"
                     />
@@ -2487,6 +2507,15 @@ const LibraryHome: FunctionComponent = () => {
           </div>
         </div>
       </div>
+      {isExpandedMenuPopupOpen && (
+        <PortalPopup
+          placement="Bottom right"
+          relativeLayerRef={navLinksContainer4Ref}
+          onOutsideClick={closeExpandedMenuPopup}
+        >
+          <ExpandedMenu onClose={closeExpandedMenuPopup} />
+        </PortalPopup>
+      )}
       {isFilterDropdownPopupOpen && (
         <PortalPopup
           overlayColor="rgba(113, 113, 113, 0.3)"

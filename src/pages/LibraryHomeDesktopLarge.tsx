@@ -11,19 +11,19 @@ const LibraryHomeDesktopLarge: FunctionComponent = () => {
   const navigate = useNavigate();
 
   const onWorkoutCard1Click = useCallback(() => {
-    navigate("/");
+    navigate("/guided-workout-details");
   }, [navigate]);
 
   const onWorkoutCard2Click = useCallback(() => {
-    navigate("/");
+    navigate("/guided-workout-details");
   }, [navigate]);
 
   const onWorkoutCard3Click = useCallback(() => {
-    navigate("/");
+    navigate("/guided-workout-details");
   }, [navigate]);
 
   const onWorkoutCardClick = useCallback(() => {
-    navigate("/");
+    navigate("/guided-workout-details");
   }, [navigate]);
 
   return (

@@ -34,7 +34,7 @@ const FilterDropdown: FunctionComponent<FilterDropdownType> = ({ onClose }) => {
               </div>
               <div className={styles.activitytag}>
                 <div className={styles.run}>
-                  <img className={styles.runIcon} alt="" src="/run2.svg" />
+                  <img className={styles.runIcon} alt="" src="/run1.svg" />
                 </div>
                 <div className={styles.moderate}>15 - 30 min</div>
               </div>
@@ -54,7 +54,7 @@ const FilterDropdown: FunctionComponent<FilterDropdownType> = ({ onClose }) => {
               </div>
               <div className={styles.activitytag}>
                 <div className={styles.run}>
-                  <img className={styles.runIcon} alt="" src="/run2.svg" />
+                  <img className={styles.runIcon} alt="" src="/run1.svg" />
                 </div>
                 <div className={styles.moderate}>1 hr +</div>
               </div>

@@ -344,7 +344,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   text-align: left;
-  font-size: var(--h5-size);
+  font-size: var(--h3-size);
   color: var(--n100-black);
-  font-family: var(--small-2-emphasis);
+  font-family: var(--p5);
 }

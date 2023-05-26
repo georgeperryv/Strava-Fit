@@ -4,9 +4,8 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-import GuidedWorkoutDetailsDeskto from "./pages/GuidedWorkoutDetailsDeskto";
-import ExpandedMenu from "./pages/ExpandedMenu";
 import LibraryHome from "./pages/LibraryHome";
+import GuidedWorkoutDetailsDeskto from "./pages/GuidedWorkoutDetailsDeskto";
 import LibraryHomeDesktopLarge from "./pages/LibraryHomeDesktopLarge";
 import { useEffect } from "react";
 
@@ -30,11 +29,7 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/expandedmenu":
-        title = "";
-        metaDescription = "";
-        break;
-      case "/library-home":
+      case "/guided-workout-details":
         title = "";
         metaDescription = "";
         break;
@@ -60,9 +55,11 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<GuidedWorkoutDetailsDeskto />} />
-      <Route path="/expandedmenu" element={<ExpandedMenu />} />
-      <Route path="/library-home" element={<LibraryHome />} />
+      <Route path="/" element={<LibraryHome />} />
+      <Route
+        path="/guided-workout-details"
+        element={<GuidedWorkoutDetailsDeskto />}
+      />
       <Route
         path="/library-home-desktop-large"
         element={<LibraryHomeDesktopLarge />}

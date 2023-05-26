@@ -22,7 +22,7 @@
   align-items: flex-end;
   justify-content: flex-start;
   text-align: center;
-  font-size: var(--small-2-emphasis-size);
+  font-size: var(--small-2-size);
   color: var(--n100-black);
 }
 .dashboard {
@@ -46,6 +46,7 @@
 }
 .navlinks,
 .subscriberonlylinks {
+  align-self: stretch;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -53,29 +54,19 @@
   justify-content: flex-start;
 }
 .subscriberonlylinks {
-  align-self: stretch;
   background-color: var(--n10-fog);
   border-top: 1px solid var(--n20-icicle);
   border-bottom: 1px solid var(--n20-icicle);
 }
 .navlinks {
-  position: absolute;
-  top: 0;
-  left: 0;
   background-color: var(--n0-white);
   border-right: 1px solid var(--n30-silver);
   border-left: 1px solid var(--n30-silver);
-  box-sizing: border-box;
-  width: 160px;
-}
-.activeindicator,
-.navlinksWrapper {
-  position: relative;
-  width: 160px;
-  height: 115px;
 }
 .activeindicator {
+  position: relative;
   background-color: var(--orange-light);
+  width: 160px;
   height: 2px;
   overflow: hidden;
   flex-shrink: 0;
@@ -83,13 +74,15 @@
 .expandedmenu {
   position: relative;
   background-color: var(--n0-white);
-  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
   text-align: left;
   font-size: var(--p5-size);
   color: var(--n90-coal);
-  font-family: var(--small-2-emphasis);
+  font-family: var(--p5);
 }
